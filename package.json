@@ -1,0 +1,19 @@
+{
+  "name": "test-pwa-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@vite-pwa/nuxt": "1.0.7",
+    "nuxt": "^3.20.1",
+    "vue": "^3.5.24",
+    "vue-router": "^4.6.3"
+  },
+  "packageManager": "pnpm@10.22.0+sha1.3e9e4d522d30f3cf4cabb7506f5d15b89feffd04"
+}
