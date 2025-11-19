@@ -4,12 +4,13 @@ if (pwa) {
   console.log(pwa)
 }
 
-pwa.showInstallPrompt = true
+// pwa.showInstallPrompt = true
 
 </script>
 
 <template>
   <div>
+    <BrowserNotificationSender />
     <InstallPWA />
     <VitePwaManifest />
     <NuxtRouteAnnouncer />
