@@ -8,6 +8,9 @@ export default defineNuxtConfig({
     devOptions: {
       enabled: true
     },
+    client: {
+      installPrompt: true
+    },
     manifest: {
       name: 'Test',
       short_name: 'Test',
