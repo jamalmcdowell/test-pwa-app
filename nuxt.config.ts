@@ -14,8 +14,8 @@ export default defineNuxtConfig({
       theme_color: '#e3dee7',
       icons: [
         {
-          src: '/download.png',
-          sizes: '192x192',
+          src: '/dev.png',
+          sizes: '256x256',
           type: 'image/png',
         },
       ],
